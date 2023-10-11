@@ -11,7 +11,7 @@ NUMBER PYRAMIDS
  666666
  7777777
  */
-public class Day1_11a_PyramidRight {
+public class Day1_11a_Pyramid {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter Number: ");
