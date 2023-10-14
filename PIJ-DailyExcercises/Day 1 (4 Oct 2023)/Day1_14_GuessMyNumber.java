@@ -1,7 +1,8 @@
+/*Write a program that thinks of a random number between 0 and 1000, and then lets the user try to guess it. For every guess, the computer says whether the guess is correct, or too low, or too high. When the user finds the number, the computer will tell how many guesses were needed. The output could be similar to the following example: */
 import java.util.Random;
 import java.util.Scanner;
 
-public class BirkbeckWk1_14_GuessMyNumber {
+public class Day1_14_GuessMyNumber {
     public static void main(String[] args) {
         Random random = new Random();
         int min = 1;

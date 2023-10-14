@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class BirkbeckWk1_15RockPaperScissors {
+public class Day1_15_RockPaperScissors {
     public static void main(String[] args) {
         RockPaperScissors instanceGame = new RockPaperScissors("P","R","S");
 

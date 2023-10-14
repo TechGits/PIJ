@@ -6,7 +6,7 @@ public class Day1_4_Prime_Numbers {
 public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
     System.out.print("Enter Number: ");
-    double userNum = scanner.nextDouble();
+    int userNum = scanner.nextInt();
    
     boolean isPrime = true;
     if (userNum <=1) {
@@ -20,9 +20,9 @@ public static void main(String[] args) {
             }
         }
     } if (isPrime) {
-        System.out.println(userNum + "is a prime number.");
+        System.out.println(userNum + " is a prime number.");
     } else {
-        System.out.println(userNum + "is not a prime number.");
+        System.out.println(userNum + " is not a prime number.");
     }
 
     }

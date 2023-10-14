@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Birkbeck_Wk2_ExB_SwitchLoop {
+public class Day3_ExB_SwitchLoop {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
