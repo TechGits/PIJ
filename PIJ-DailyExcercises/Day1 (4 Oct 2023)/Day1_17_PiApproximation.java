@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Birkbeck_Wk1_17_TakeNumberApproximatePi {
+public class Day1_17_PiApproximation {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter Number: ");
@@ -13,7 +13,7 @@ public class Birkbeck_Wk1_17_TakeNumberApproximatePi {
             piApproximation += term / (2 * k + 1);
         }
 
-        piApproximation *= 4;
+        piApproximation *= 4; // x += 3; is shorthand equivalent to x = x + 3;
 
         System.out.println("Approximation of pi: " + piApproximation);
     }

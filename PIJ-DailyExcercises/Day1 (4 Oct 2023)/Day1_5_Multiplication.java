@@ -8,16 +8,17 @@ public class Day1_5_Multiplication {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Enter the first number: ");
-        double num1 = scanner.nextDouble();
+        System.out.print("Enter the first number: "); // example, i enter 2
+        int num1 = scanner.nextInt();
 
-        System.out.print("Enter the second number: ");
-        double num2 = scanner.nextDouble();
+        System.out.print("Enter the second number: "); // example, i enter 7
+        int num2 = scanner.nextInt();
 
-        double product = 0;
+        int product = 0;
 
-        for (int i = 0; i < Math.abs(num2); i++) {
-            product += num1;
+        for (int i = 0; i < Math.abs(num1); i++) {
+            product += num2; // 0 = 0 +7.. it does this two times, 
+            //coz it loops to num1
         }
 
         // Handle the case when one or both numbers are negative
