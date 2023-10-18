@@ -9,6 +9,7 @@ public class Day3_ExB_SwitchLoop {
         System.out.println("Press 2 for Customer service");
         System.out.println("Press 3 for Technical Support");
         System.out.println("Press 4 for Cancellations");
+        System.out.println(">");
         int choice = scanner.nextInt();
 
             if (choice > 4 || choice < 1) {
@@ -28,6 +29,8 @@ public class Day3_ExB_SwitchLoop {
                     case 4:
                         System.out.println("bye-bye !");
                         break;
+                    default:
+                    break;
                 } break;
             }
         }
