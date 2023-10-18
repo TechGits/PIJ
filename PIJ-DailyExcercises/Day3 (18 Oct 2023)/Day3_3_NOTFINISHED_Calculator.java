@@ -33,20 +33,20 @@ public class Day3_3_NOTFINISHED_Calculator {
         } else {
            switch (mathChoice) {
             case 1:
-                int addTotal = num1 + num2;
+                double addTotal = num1 + num2;
                 System.out.println(addTotal);
                 break;
               
             case 2:
-                int subtractTotal = num1 - num2;
+                double subtractTotal = num1 - num2;
                 break;
 
             case 3:
-                int timesTotal = num1 * num2;
+                double timesTotal = num1 * num2;
                 break;
 
             case 4:
-                int divTotal = num1 - num2;
+                double divTotal = num1 - num2;
                 break;
 
             default:
