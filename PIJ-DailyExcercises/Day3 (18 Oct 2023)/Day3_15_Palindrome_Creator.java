@@ -7,7 +7,7 @@ public class Day3_15_Palindrome_Creator {
 
             if (isPalindrome(input)) {
                 System.out.println(input + " is a palindrome.");
-            } else {
+            }x else {
                 System.out.println(input + " is not a palindrome.");
             }
         }

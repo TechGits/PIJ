@@ -8,8 +8,7 @@ public class Da3_14_Palindrome {
         String yourWord = scanner.nextLine();
         for (int i = 0 ; i <yourWord.length(); i++){;
              char c = yourWord.charAt(0);
-             char end = yourWord.length();
-             if (c == end)
+
              
            
 
