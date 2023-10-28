@@ -1,3 +1,4 @@
+/**
 import java.util.Scanner;
 
 
@@ -38,3 +39,5 @@ class Point {
 
 
 }
+
+ **/

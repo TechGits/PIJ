@@ -1,4 +1,4 @@
-import java.util.Scanner;
+/**import java.util.Scanner;
 
 public class BASICS_Character_Seperate_Line {
     public static void main(String[] args) {
@@ -21,3 +21,4 @@ public class BASICS_Character_Seperate_Line {
     }
 }{
 }
+**/
