@@ -2,28 +2,25 @@ import java.util.Scanner;
 
 public class BASICS_Palindrome {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        String yourText = scanner.nextLine();
-        System.out.print("Enter Text: ");
+        String yourString = "aibba";
+        String result = isPal(yourString) ? yourString + " is a palindrome." : yourString + " is not a palindrome.";
+        System.out.println(result);     
 
-        if (isPalinDrome(yourText)){
-            System.out.println(yourText + " is a Palindrome.");
-        } else {
-            System.out.println(yourText + " is not a Palindrome.");
-        }
     }
 
-    static boolean isPalinDrome (String yourText) {
+    static boolean isPal (String yourString){
         int left = 0;
-        int right = yourText.length() -1;
-        while (left < right) {
-            if (yourText.charAt(left) != (yourText.charAt(right))) {
+        int right = yourString.length() -1;
+        while (left < right){
+            if (yourString.charAt(left) != (yourString.charAt(right))){
                 return false;
-                }
+                
+            }
             left++;
             right--;
-        }
-        return true;
+
+        }  return true;
+
 
     }
     
