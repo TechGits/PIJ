@@ -1,0 +1,14 @@
+public interface Measurable {#
+
+
+/*
+ * Basic measurable interface
+ */
+
+ /*
+  * This is where the return is coming from  
+  * @return
+  */
+    double getMeasure();
+     
+}
