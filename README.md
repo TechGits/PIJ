@@ -1,5 +1,5 @@
-Uni Work Files
-==============
+Programming in Java
+===================
 
 My Weekly excercise work files for the 'Programming in Java' module at Birkbeck, University of London.
 Also, evidential working 'practices' of my FoC coursework.
