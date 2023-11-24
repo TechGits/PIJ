@@ -21,7 +21,6 @@ public class Animal {
 
     // Getters and setters for common properties
 
-
     public String getType() {
         return type;
     }
@@ -57,8 +56,7 @@ public class Animal {
         } return false;
     }
     public void animalProperties() {
-        System.out.println("This is a "+type+". It is "+color+", has "+numberOfLegs+" legs, and "+statusPred.toString()+".\nIt has a fear factor of level "+fearsomeRating+", and "+speech+"s at you, saying 'hello'.");
+        System.out.println("This is a "+type+". It is "+color+", has "+numberOfLegs+" legs, and .\nIt has a fear factor of level "+fearsomeRating+", and "+speech+"s at you, saying 'hello'.");
     }
-
 
 }
