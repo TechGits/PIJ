@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8ff26544-eb9d-4d39-977c-b7708e920214" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Day7 (15 Nov 2023) George Sick/.idea/Day7 (15 Nov 2023) George Sick.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Day7 (22 Nov 2023) - Inheritance/MultiInstruments/MultiInstruments.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Day7 (22 Nov 2023) - Inheritance/Noahs_Ark/Noahs_Ark.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Day7 (22 Nov 2023) - Inheritance/Noahs_Ark/out/production/Noahs_Ark/Noahs_Ark/Noahs_Ark.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Day7 (22 Nov 2023) - Inheritance/PhoneProject/PhoneProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Day7 (22 Nov 2023) - Inheritance/Stuff/Animals/Animals.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ex5_Pair.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestGeneric/untitled.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Day9 (1 Dec 2023) Generic Types/Maps/Maps/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Day9 (1 Dec 2023) Generic Types/Maps/Maps/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Day9 (1 Dec 2023) Generic Types/Maps/Maps/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Day9 (1 Dec 2023) Generic Types/Maps/Maps/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Day9 (1 Dec 2023) Generic Types/Maps/Maps/Maps.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Day9 (1 Dec 2023) Generic Types/Maps/Maps/src/Maps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Day9 (6 Dec 2923) Java Collections : Generic Types/d9.pdf" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2YpAD3xZ3UGglbDgdye44dCZpPx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/xeon2035/Library/Mobile Documents/com~apple~CloudDocs/UniWerk/PIJ/PIJ-DailyExcercises/Day8 (28 Nov 2023) - Polymorphism/Ex5_Pair",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8ff26544-eb9d-4d39-977c-b7708e920214" name="Changes" comment="" />
+      <created>1701212023937</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701212023937</updated>
+      <workItem from="1701562804836" duration="197000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

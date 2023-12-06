@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Day9 (1 Dec 2023) Generic Types.iml" filepath="$PROJECT_DIR$/.idea/Day9 (1 Dec 2023) Generic Types.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ex5_Pair/Ex5_Pair.iml" filepath="$PROJECT_DIR$/Ex5_Pair/Ex5_Pair.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ex6_Box/Ex6_Box.iml" filepath="$PROJECT_DIR$/Ex6_Box/Ex6_Box.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ex6_BoxRevisited/Ex6_BoxRevisited.iml" filepath="$PROJECT_DIR$/Ex6_BoxRevisited/Ex6_BoxRevisited.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ex7_GenericsAndSubclasses/Ex7_GenericsAndSubclasses.iml" filepath="$PROJECT_DIR$/Ex7_GenericsAndSubclasses/Ex7_GenericsAndSubclasses.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Maps/Maps.iml" filepath="$PROJECT_DIR$/Maps/Maps.iml" />
+    </modules>
+  </component>
+</project>
