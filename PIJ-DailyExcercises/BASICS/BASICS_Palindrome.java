@@ -25,3 +25,25 @@ public class BASICS_Palindrome {
     }
     
 }
+
+
+/*
+Function isPalindrome (String, yourString)  // Boolean returns true / false
+
+startLetter = 0
+endLetter = yourString - 1
+
+While (start < end) //This while loop iterates through the word …
+		if yourString.(startLetter) != yourString.(endLetter)
+			return false
+		end of loop
+
+		Increment startLetter (startLetter++)
+		Decrement endLetter (endLetter --)
+// if the loop keeps returning false (after incrementing and decrementing,  until the end, then it is not a palindrome, and the while loop ends.
+
+end while loop
+
+return true
+
+ */
