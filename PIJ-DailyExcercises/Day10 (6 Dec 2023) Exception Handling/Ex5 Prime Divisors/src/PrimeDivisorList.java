@@ -5,7 +5,7 @@ public class PrimeDivisorList {
 
     }
 
-    public boolean isPrime(Integer number){
+    public static boolean isPrime(Integer number){
 
         if (number <=1){
             return false;
@@ -19,9 +19,23 @@ public class PrimeDivisorList {
     }
 
     public static void add(Integer num2Check){
+        if (num2Check == null){
+            throw new NullPointerException("Your number must not be null");
+        } else if (!isPrime(num2Check)) {
+            throw new IllegalArgumentException("Your number must be a prime number.");
+        } else {
+            Integer currentOcc= map.getorDefault(num2Check,0);
+            map.put(num2Check, currentOcc + 1); //1 (key) exists 10 times (value)
+
+
+        }
+
        }
 
    public void remove(Integer num2Check){
+        if (map.containsKey(num2Check)){
+            Integer currentOcc = map;
+        }
 
     }
 

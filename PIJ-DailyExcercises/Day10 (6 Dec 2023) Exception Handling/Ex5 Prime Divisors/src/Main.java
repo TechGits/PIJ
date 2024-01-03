@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.TreeMap;
 
 public class Main {
 
@@ -12,6 +13,7 @@ If a non-prime number is added, an IllegalArgumentException must be thrown.
      */
     public static void main(String[] args) {
 
+        Map <Double,Integer> map = TreeMapM<>
         PrimeDivisorList primeChecker = new PrimeDivisorList();
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a number: ");
