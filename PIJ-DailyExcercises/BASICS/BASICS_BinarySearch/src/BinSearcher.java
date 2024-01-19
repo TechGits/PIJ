@@ -9,7 +9,7 @@ public class BinSearcher {
 
 
     //This function takes an array input only.
-    public int binSearchFunction (int yourArray[]) {
+    public int binSearchFunction (int[] yourArray) {
         int left = 0;
         int right = yourArray.length - 1;
         while (left <= right) {
