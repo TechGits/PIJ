@@ -7,8 +7,7 @@ public class Main {
         myNewTypCast.printMyType();
 
         TypeCast<String> myString = new TypeCast<>("sdds");
-        myString.printMyType();
-
+£z
         TypeCast<Double> myDoub = new TypeCast<>(4.4);
         myDoub.printMyType();
 
