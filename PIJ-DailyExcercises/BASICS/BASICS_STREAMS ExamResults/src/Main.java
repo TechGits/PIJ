@@ -6,32 +6,35 @@ import java.util.stream.Collectors;
 
 public class Main {
     public static void main(String[] args) {
-        List<Students> pijStudents = new ArrayList<>(Arrays.asList(
-                new Students("Ricki", 50),
-                new Students("Maria", 86),
-                new Students("Charlie", 63),
-                new Students("Donavan", 23),
-                new Students("Lisa", 61),
-                new Students("Oscar", 92),
-                new Students("Faris", 36),
-                new Students("Philo", 67),
-                new Students("Peter", 54),
-                new Students("Xavier", 60),
-                new Students("David", 70),
-                new Students("Milli", 68),
-                new Students("Alice", 51),
-                new Students("Zach", 56),
-                new Students("Alanah", 42)));
+        List<ExamResults> pijStudents = new ArrayList<>(Arrays.asList(
+                new ExamResults("Ricki", 50),
+                new ExamResults("Maria", 86),
+                new ExamResults("Charlie", 63),
+                new ExamResults("Donavan", 23),
+                new ExamResults("Lisa", 61),
+                new ExamResults("Oscar", 92),
+                new ExamResults("Faris", 36),
+                new ExamResults("Philo", 67),
+                new ExamResults("Peter", 54),
+                new ExamResults("Xavier", 60),
+                new ExamResults("David", 70),
+                new ExamResults("Milli", 68),
+                new ExamResults("Alice", 51),
+                new ExamResults("Zach", 56),
+                new ExamResults("Alanah", 42),
+                new ExamResults("Yonita", 101),
+                new ExamResults("Larry", -43)));
 
 
-        List <Students> failStudents = pijStudents.stream()
+
+        List <ExamResults> failStudents = pijStudents.stream()
                 .filter (student -> student.mark <50)
                 .sorted(Comparator.comparing(mark -> mark.mark))
                 .collect(Collectors.toList());
         System.out.print("FAIL: ");
         failStudents.forEach(student -> System.out.print(student.studentName+" "+student.mark+", "));
 
-        List <Students> passStudents = pijStudents.stream()
+        List <ExamResults> passStudents = pijStudents.stream()
                 .filter((student -> student.mark >= 50 & student.mark <= 59))
                 .sorted(Comparator.comparing(mark -> mark.mark))
                 .collect(Collectors.toList());
@@ -39,7 +42,7 @@ public class Main {
         passStudents.forEach((student -> System.out.print(student.studentName+" "+student.mark+", ")));
 
 
-        List<Students> meritStudents = pijStudents.stream()
+        List<ExamResults> meritStudents = pijStudents.stream()
                 .filter(student -> student.mark >= 60 && student.mark <= 69)
                 .collect(Collectors.toList());
 
@@ -47,7 +50,7 @@ public class Main {
         meritStudents.forEach((student -> System.out.print(student.studentName+" "+ student.mark+", ")));
 
 
-        List<Students> distStudents = pijStudents.stream()
+        List<ExamResults> distStudents = pijStudents.stream()
                 .filter((student -> student.mark >= 70))
                 .sorted(Comparator.comparing(mark -> mark.mark))
                 .collect(Collectors.toList());
