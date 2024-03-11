@@ -51,7 +51,7 @@ public class PostcodeClient {
     private static void retrieveOnePostcode()
             throws URISyntaxException, IOException, InterruptedException {
         HttpRequest getRequest = HttpRequest.newBuilder()
-                .uri(new URI("https://api.postcodes.io/postcodes/CR41QT")) // Ex 1.1
+                .uri(new URI("https://api.postcodes.io/postcodes/WC1E7HX")) // Ex 1.1
                 //.uri(new URI("https://api.postcodes.io/postcodes/WC1E 7HX")) // Ex 1.2
                 //.uri(new URI("https", "//api.postcodes.io/postcodes/WC1E 7HX", null)) // Ex 1.2
                 //.uri(new URI("https", "//api.postcodes.io/postcodes/notAPostcode", null)) // Ex 1.3
