@@ -8,7 +8,7 @@ public class Main {
         List<Future<Integer>> list = new ArrayList<>();
         try {
             for (int i = 0; i < 10; i++) {
-                Future<Integer> future = service.submit(new SumCallable(i));
+                Future<Integer> future = service.submit(new SumCallable(i)); // When submit callable, we get a future in return
                 list.add(future);
             }
             for (Future<Integer> f : list) { // Specify the type of Future as Future<Integer>
@@ -16,7 +16,7 @@ public class Main {
             }
         } finally {
             // Shutdown the executor service
-            service.shutdown();
+           service.shutdown();
         }
     }
 }
