@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9bb101a-9cb2-4a4c-b892-c6ad0a23d645" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PIJ-DailyExcercises/Day10 (6 Dec 2023)/d10.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/PIJ-DailyExcercises/Day10 (6 Dec 2023) Exception Handling/d10.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PIJ-DailyExcercises/Day9 (1 Dec 2023) Generic Types/Ex8_GensWildcards_SubClases/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PIJ-DailyExcercises/Day9 (1 Dec 2023) Generic Types/Ex8_GensWildcards_SubClases/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PIJ-DailyExcercises/Day9 (1 Dec 2023) Generic Types/Ex8_GensWildcards_SubClases/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PIJ-DailyExcercises/Day9 (1 Dec 2023) Generic Types/Ex8_GensWildcards_SubClases/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PIJ-DailyExcercises/Day9 (1 Dec 2023) Generic Types/Ex8_GensWildcards_SubClases/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PIJ-DailyExcercises/Day9 (1 Dec 2023) Generic Types/Ex8_GensWildcards_SubClases/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PIJ-DailyExcercises/Day9 (1 Dec 2023) Generic Types/Ex8_GensWildcards_SubClases/Ex2_DifferentSetsOrders.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PIJ-DailyExcercises/Day9 (1 Dec 2023) Generic Types/Ex8_GensWildcards_SubClases/src/Main.java" beforeDir="false" />
-    </list>
+    <list default="true" id="e9bb101a-9cb2-4a4c-b892-c6ad0a23d645" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,6 +34,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/xeon2035/Library/Mobile Documents/com~apple~CloudDocs/UniWerk/PIJ",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -81,6 +71,7 @@
       <workItem from="1700677518967" duration="37000" />
       <workItem from="1701210686509" duration="31000" />
       <workItem from="1701882586858" duration="395000" />
+      <workItem from="1712207611404" duration="62000" />
     </task>
     <servers />
   </component>
