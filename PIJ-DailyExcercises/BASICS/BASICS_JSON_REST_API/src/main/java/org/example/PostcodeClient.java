@@ -1,4 +1,4 @@
-package pij.day19.solution;
+package org.example;
 
 import com.google.gson.Gson;
 
@@ -28,7 +28,8 @@ public class PostcodeClient {
      * of time.
      */
     private static final int REQUEST_PAUSE_MILLIS = 1000;
-
+    private static final String API_KEY = "f3a5176c313a9804865bffdd50b50237";
+    private static final String API =  "https://api.openweathermap.org/data/2.5/weather?q=London&appid=" + API_KEY;
     /**
      * This main method may throw a number of checked exceptions. Here we
      * skip catching these exception for brevity. In a real application,
@@ -51,7 +52,7 @@ public class PostcodeClient {
     private static void retrieveOnePostcode()
             throws URISyntaxException, IOException, InterruptedException {
         HttpRequest getRequest = HttpRequest.newBuilder()
-                .uri(new URI("https://api.postcodes.io/postcodes/WC1E7HX")) // Ex 1.1
+                .uri(new URI(API)) // Ex 1.1
                 //.uri(new URI("https://api.postcodes.io/postcodes/WC1E 7HX")) // Ex 1.2
                 //.uri(new URI("https", "//api.postcodes.io/postcodes/WC1E 7HX", null)) // Ex 1.2
                 //.uri(new URI("https", "//api.postcodes.io/postcodes/notAPostcode", null)) // Ex 1.3
@@ -71,7 +72,7 @@ public class PostcodeClient {
 
         // Ex 1.5
         Gson gson = new Gson();
-        PostcodeResponse postcodeResponse = gson.fromJson(response.body(), PostcodeResponse.class);
+        pij.day19.solution.PostcodeResponse postcodeResponse = gson.fromJson(response.body(), pij.day19.solution.PostcodeResponse.class);
 
         System.out.println(postcodeResponse);
     }}
