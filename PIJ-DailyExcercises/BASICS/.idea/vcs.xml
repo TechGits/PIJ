@@ -2,5 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$/../.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/BASICS_TREE_(Ternary)_FamilyTree" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Strings (StringBuilder)/BASICS_" vcs="Git" />
   </component>
 </project>
