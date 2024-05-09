@@ -1,7 +1,11 @@
 package org.example;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
+
+
 
         // Creating and starting a thread by implementing the Runnable interface. the run() method is override to pass in parameters
         MyRunnable runnable1 = new MyRunnable("#1");
